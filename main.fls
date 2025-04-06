@@ -297,8 +297,8 @@ INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx172
 INPUT C:\Users\nicol\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-t1.enc
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
-INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\Body\policy_evaluation.tex
 INPUT .\Body\policy_evaluation.tex
 INPUT .\Body\policy_evaluation.tex
@@ -330,6 +330,15 @@ INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
 INPUT .\main.bbl
 INPUT .\main.bbl
@@ -366,6 +375,10 @@ INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\s
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1440.pfb
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1728.pfb
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1728.pfb
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm0700.pfb
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm0700.pfb
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm0800.pfb
+INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm0800.pfb
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1000.pfb
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1000.pfb
 INPUT C:\Users\nicol\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1200.pfb
