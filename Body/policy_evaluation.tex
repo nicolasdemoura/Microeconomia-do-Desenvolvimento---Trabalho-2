@@ -1,0 +1,39 @@
+
+\section{Desenho da Avaliação Experimental de Impacto}
+
+A avaliação de impacto busca responder, de forma sistemática e rigorosa, se uma determinada política pública produziu efeitos mensuráveis sobre os resultados de interesse, distinguindo esses efeitos de outras influências externas. Seus objetivos principais incluem identificar a efetividade da intervenção, mensurar a magnitude dos impactos, compreender os mecanismos pelos quais esses impactos ocorrem e fornecer base empírica para o aprimoramento ou expansão da política. No caso desta avaliação, pretendemos verificar se a política de Tarifa Zero afeta significativamente indicadores de mobilidade urbana, meio ambiente e mercado de trabalho, permitindo responder às seguintes perguntas:
+\begin{itemize}
+    \item Subsídios a transporte públicos reduzem o congestionamento urbano?
+    \item Subsídios a transporte públicos aumentam as emissões de gases estufa?
+    \item Subsídios a transporte públicos melhoram as condições do mercado de trabalho?
+\end{itemize}
+
+\subsection{Dados}
+
+Os efeitos de nosso tratamento ao longo do experimento serão medidos por variáveis de três grupos diferentes que, em regressões separadas, serão úteis para fornecer diferentes esclarecimentos sobre os diversos impactos da experiência. Os dados serão divididos conforme as categorias: Mobilidade Urbana, Meio Ambiente e Mercado de Trabalho.
+
+\subsubsection{Mobilidade Urbana}
+Para esse grupo, gostaríamos de avaliar o impacto da política na taxa de participação dos modais coletivos mediante o total de viagens feitas no município (isso é, avaliar se a política efetivamente impactará o uso do transporte público em detrimento dos meios particulares, como automóveis e motos próprias) e também no tempo médio de deslocamento (considerando todos os modais).
+
+A bibliografia estabelecida nos aponta que os efeitos esperados costumam ser de que haverá um aumento no uso dos transportes públicos relativo à transportes individuais, o que reduzirá o número de veículos simultaneamente trafegando, otimizando o espaço das ruas e levando a uma diminuição no tempo médio das viagens, conforme os engarrafamentos tornam-se menos frequentes.
+
+As variáveis virão da Pesquisa Nacional de Mobilidade Urbana Municipal (Pemob Municipal), realizada anualmente pelo Ministério das Cidades (MDIC) desde 2018, em nível municipal. Utilizaremos os dados de rótulo 4.7.1 I e 4.7.1 F (respectivamente, “Qual o percentual de viagens realizadas por transporte coletivo?” e “Considerando todos os modais de transporte, qual o tempo médio das viagens realizadas no município?”). Os dados em questão estão totalmente disponíveis através do próprio site do Ministério das Cidades /url{https://www.gov.br/cidades/pt-br/assuntos/mobilidade-urbana/pesquisa-nacional-de-mobilidade-urbana-pemob}.
+
+A coleta dos dados é feita à nível do município anualmente. Os próprios municípios enviam os seus dados mediante a solicitação do Ministério das Cidades. Os dados que utilizamos são obtidos a partir de amostragens aleatórias dos transeuntes, que respondem à pesquisas do tipo “Origem - Destino”.
+
+\subsubsection{Meio-Ambiente}
+Outra possível perspectiva do experimento envolveria avaliar o impacto da redução de emissão de gases poluentes - dado que, conforme adensam-se os métodos de transporte, reduz-se o nível de emissão de poluentes per capita em uma dada localidade, tudo o mais constante. Assim, utilizaríamos dados de concentração de poluentes para avaliar os impactos da política em reduzir esses valores. Aqui, trataremos como “poluentes” o seguinte grupo de gases: dióxido de nitrogênio (NO2), dióxido de enxofre (SO2) e ozônio (O3).
+
+Apesar de haverem razões plausíveis para esperar-se que a política de Tarifa Zero reduza a poluência do município, não há evidência, dentre a bibliografia estabelecida sobre a magnitude de tal redução, tão pouco dos fatores que poderiam mudar os níveis dessa magnitude. Portanto, nos restringimos a, tal qual a literatura, buscar apenas responder se a política poderá ou não afetar o nível de poluência.
+
+Serão utilizados dados da Companhia Ambiental do Estado de São Paulo (CETESB), que coleta os dados através de estações próprias de coleta e os disponibiliza anualmente, em um levantamento consolidado com a média anual dos dados. A colheita dos dados tem periodicidade diversa: em locais onde a CETESB possui pontos de captação de dados, temos dados diários (por vezes, horário); porém, em locais em que a companhia capta dados manualmente, pode ser que os levantamentos não estejam disponíveis na mesma periodicidade. Os dados em questão são disponibilizados ao público através do próprio site da CETESB /url{https://cetesb.sp.gov.br/ar/classificacao-de-municipios/}.
+
+\subsubsection{Mercado de Trabalho}
+Por fim, os dados de emprego serão utilizados como maneira de avaliar uma tese de transformação estrutural da forma com que classes menos favorecidas acessam o mercado de trabalho. Nessa bibliografia, com os transportes públicos gratuitos, essa massa que depende deles poderá acessar regiões anteriormente inacessíveis devido aos altos custos de deslocamento. Com a determinação da Tarifa Zero, abrem-se novas oportunidades geográficas de integração do mercado, reduzindo o desemprego friccional da economia em um dado momento.
+
+Assim, gostaríamos de avaliar se há uma diminuição gradual no desemprego à nível municipal, em uma tendência de médio prazo, conforme todos os cidadãos de um dado município diminuem seus custos necessários para arranjar novos empregos.
+
+A principal fonte de dados para essas variáveis será o Cadastro Geral de Empregados e Desempregados (CAGED). Os dados são coletados pelo Ministério com uma periodicidade mensal.
+
+\subsubsection{Desenho Experimental}
+

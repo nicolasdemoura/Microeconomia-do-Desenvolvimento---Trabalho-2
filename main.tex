@@ -1,0 +1,129 @@
+\documentclass[12pt]{article} 
+\usepackage[top = 3cm, bottom = 2cm, left = 3cm, right = 2cm]{geometry} 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[svgnames]{xcolor}
+\usepackage{listings}
+\usepackage{tabularx}
+\lstset{language=R,
+    basicstyle=\small\ttfamily,
+    stringstyle=\color{DarkGreen},
+    otherkeywords={0,1,2,3,4,5,6,7,8,9},
+    morekeywords={TRUE,FALSE},
+    deletekeywords={data,frame,length,as,character},
+    keywordstyle=\color{blue},
+    commentstyle=\color{DarkGreen},
+}
+\usepackage{underscore}
+\usepackage{caption}
+\usepackage{multirow} 
+\usepackage{booktabs} 
+\usepackage{graphicx} 
+\usepackage{setspace}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage{mathtools,halloweenmath}
+\setlength{\parindent}{0in}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{adjustbox}
+\usepackage{amsmath,amsfonts,amssymb,mathtools}
+\usepackage[makeroom]{cancel}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\usepackage[dvipsnames,hyperref]{xcolor}
+\usepackage{fancyhdr}
+\usepackage[section]{placeins}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\renewcommand{\contentsname}{Índice}
+\renewcommand{\figurename}{Gráfico}
+\renewcommand{\tablename}{Tabela}
+\renewcommand{\refname}{Referências}
+\usepackage{xcolor}
+\usepackage{subfig}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{scrextend} % pacote necessário
+\usepackage[portuguese]{babel}
+\setlength{\parindent}{3em}
+
+
+% Pacotes de citações
+% ---
+\usepackage{backref}	 % Paginas com as citações na bibl
+\usepackage[alf,abnt-and-type=&]{abntex2cite}	% Citações padrão ABNT
+% ---
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+\addtokomafont{footnote}{\small} % tamanho da fonte 10
+\hypersetup{
+    colorlinks,
+    linkcolor={blue!30!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+\titlelabel{\thetitle.\quad}
+\definecolor{coolblack}{rgb}{0.0, 0.12, 0.29}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\onehalfspacing
+
+\pagestyle{fancy} 
+\fancyhf{} 
+\lhead{\footnotesize Microeconomia do Desenvolvimento - Trabalho II}
+\rhead{\footnotesize D. Colli, D. Leite, M. Finger, e N. G. Moura}
+
+\cfoot{\footnotesize \thepage} 
+\graphicspath{{Gráficos/}}
+\usepackage{indentfirst}
+\usepackage[alf]{abntex2cite}
+
+\newtheorem{theorem}{Hipótese}
+\renewcommand{\theoremautorefname}{Hipótese}
+\numberwithin{theorem}{section}
+\newcommand{\source}[1]{\caption*{Fonte: {#1}} }
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center}
+    \large{\textbf{Microeconomia do Desenvolvimento - Trabalho II}}
+\end{center}
+
+\begin{center}
+    \large{Daniel Colli, Diogo Leite, Michel Finger, e Nícolas G. Moura}
+\end{center}
+
+\begin{center}
+    \large{\today}
+\end{center}
+
+
+\input{Body/body}
+
+\newpage
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{refs}
+
+
+\end{document}
