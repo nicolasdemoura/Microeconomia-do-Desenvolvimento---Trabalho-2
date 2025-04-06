@@ -1,17 +1,17 @@
 # Fdb version 4
-["bibtex main"] 1743958320.81582 "main.aux" "main.bbl" "main" 1743958323.01437 0
+["bibtex main"] 1743958365.75335 "main.aux" "main.bbl" "main" 1743958397.85069 0
   "./refs.bib" 1743958223 4272 3b9f611a4978dd8ab6ddc976b840e82f ""
   "C:/Users/nicol/AppData/Local/Programs/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 1543103229 5396 4eb260dac60f150ae608d45252853090 ""
   "C:/Users/nicol/AppData/Local/Programs/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 1543103230 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "main.aux" 1743958322 6273 672d0383bcddbe2f05f6547d846baf44 "pdflatex"
+  "main.aux" 1743958396 6273 a72c4029805c2474e96b989b2df649bf "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1743958321.07589 "c:/! PROJETOS/100 Undergraduate/2025.1/Microeconomia do Desenvolvimento/Microeconomia-do-Desenvolvimento---Trabalho-2/main.tex" "main.pdf" "main" 1743958323.01492 0
+["pdflatex"] 1743958395.9968 "c:/! PROJETOS/100 Undergraduate/2025.1/Microeconomia do Desenvolvimento/Microeconomia-do-Desenvolvimento---Trabalho-2/main.tex" "main.pdf" "main" 1743958397.85123 0
   "Body/body.tex" 1743952874 56 6691a2606259b559badae38f5e583797 ""
-  "Body/description.tex" 1743955774 6727 b57b50bf01128d9817d247e8874c968b ""
-  "Body/policy_evaluation.tex" 1743958316 15974 e539a858be3ab53255f3142420fbb59c ""
+  "Body/description.tex" 1743958363 6343 eef3b2ab19ce1e48a7dfd1a0c578f2fe ""
+  "Body/policy_evaluation.tex" 1743958395 15967 3f47e18fe783f6be49499e03474c3d5a ""
   "C:/Users/nicol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743952994 368375 a34eeec07728a71396160ca74fde6b91 ""
   "C:/Users/nicol/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1742310581 12036089 3a53ca718cc8ff4aba83d9cb10f38d45 ""
   "C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1001775420 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -183,10 +183,10 @@
   "C:/Users/nicol/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/nicol/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "c:/! PROJETOS/100 Undergraduate/2025.1/Microeconomia do Desenvolvimento/Microeconomia-do-Desenvolvimento---Trabalho-2/main.tex" 1743952969 3351 4ab4418f7452ee474b0372927a4eca00 ""
-  "main.aux" 1743958322 6273 672d0383bcddbe2f05f6547d846baf44 "pdflatex"
-  "main.bbl" 1743958321 5108 819db96d4d5aabd87b84b2307b47b1e3 "bibtex main"
-  "main.brf" 1743958322 1183 1e5bc406be424cb0f1e2fb4f8c24a5c5 "pdflatex"
-  "main.out" 1743958322 1759 8868f2a61cc7b9455b2717b33919e60e "pdflatex"
+  "main.aux" 1743958396 6273 a72c4029805c2474e96b989b2df649bf "pdflatex"
+  "main.bbl" 1743958365 5108 819db96d4d5aabd87b84b2307b47b1e3 "bibtex main"
+  "main.brf" 1743958396 1183 0f6f83dd93e92b463d0206cdd1edf7fa "pdflatex"
+  "main.out" 1743958396 1759 8868f2a61cc7b9455b2717b33919e60e "pdflatex"
   "main.tex" 1743952969 3351 4ab4418f7452ee474b0372927a4eca00 ""
   (generated)
   "main.aux"
